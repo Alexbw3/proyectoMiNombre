@@ -33,6 +33,20 @@ public class Student {
     }
 
     public void setCareer(String career) {
-        this.career = career;
+        this.career = career; }
+    public double generalAvg(long controlNumber){
+        return 0.0;
+
     }
-}
+    public double semesterAvg(long controlNumber, int semester){
+        return 0.0;
+
+    }
+
+    public double subjetcGrade(long controlNumber, String subject){
+        
+        return 0.0;
+    }
+} 
+    
+
