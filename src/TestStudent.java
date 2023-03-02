@@ -1,9 +1,9 @@
 public class TestStudent {
     public static void main(String[] args) {
         Student student = new Student();
-        student.setName("ricardo");
+        student.setName("evelyn");
         student.setLastname("lira");
-        student.setControlNumber(22670046);
+        student.setControlNumber(22670076);
         student.setCareer("ing.informatica");
         System.out.println("nombre:" + student.getName());
         System.out.println("apellido:" + student.getLastname());
@@ -11,9 +11,9 @@ public class TestStudent {
         System.out.println("carrera:"+student.getCareer());
 
         Student ricardo = new Student();
-        ricardo.setName("Evelyn");
-        ricardo.setLastname("lira");
-        ricardo.setControlNumber(22670067);
+        ricardo.setName("Alexander");
+        ricardo.setLastname("Barrios");
+        ricardo.setControlNumber(22670046);
         ricardo.setCareer("ing.informatica");
         System.out.println("nombre:" + ricardo.getName());
         System.out.println("apellido:" + ricardo.getLastname());
