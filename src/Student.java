@@ -47,6 +47,12 @@ public class Student {
         
         return 0.0;
     }
+    public String toString() {
+        System.out.println("Los datos del estudiante:");
+        System.out.println("nombre:"+ getName());
+        System.out.println("apellido"+ getLastname());
+        return "";
+    }
 } 
     
 
